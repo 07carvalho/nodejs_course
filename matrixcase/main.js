@@ -1,5 +1,4 @@
-
-function doHackerCase(str) {
+module.exports = function(str) {
     return str
         .replace(/a/ig, '4')
         .replace(/e/ig, '3')
@@ -8,8 +7,4 @@ function doHackerCase(str) {
         .replace(/o/ig, '0')
         .replace(/i/ig, '1')
         .replace(/z/ig, '2').toUpperCase();
-}
-
-module.exports = {
-    doHackerCase
 }

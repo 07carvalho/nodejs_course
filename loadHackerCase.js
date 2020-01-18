@@ -1,3 +1,3 @@
-const hackerCase = require('./hackerCase.js');
+const hackerCase = require('./matrixcase');
 
-console.log(hackerCase.doHackerCase('Se você pode sonhar. Você pode fazer.'));
+console.log(hackerCase('Se você pode sonhar. Você pode fazer.'));
